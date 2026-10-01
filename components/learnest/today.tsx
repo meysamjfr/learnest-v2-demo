@@ -52,11 +52,12 @@ export function TodayPage() {
   const [activeNav, setActiveNav] = useState('خانه')
 
   return (
-    <div dir="rtl" className="min-h-screen bg-[#f8fafc] text-[#0f172a]">
+    <div dir="rtl" className="min-h-screen bg-[#faf7f1] text-[#0f2747]">
       <div className="mx-auto flex min-h-screen max-w-[1440px]">
         <DesktopSidebar activeNav={activeNav} onNavigate={setActiveNav} />
         <main className="min-w-0 flex-1 pb-24 lg:pb-0">
           <div className="mx-auto max-w-5xl px-5 py-6 sm:px-8 lg:px-12 lg:py-10">
+            <div className="mb-7 flex items-center gap-3" dir="ltr"><div className="flex size-10 items-center justify-center rounded-xl bg-[#ff6b5b] text-white"><BookOpen className="size-5" /></div><span className="text-2xl font-extrabold tracking-tight text-[#0f2747]">Learnest <span className="text-[#ff806f]">V2</span></span></div>
             <header className="mb-8 flex items-start justify-between gap-4">
               <div>
                 <div className="mb-2 flex items-center gap-2 text-sm text-[#64748b]">
