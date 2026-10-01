@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Learnest | یادگیری انگلیسی برای فارسی‌زبان‌ها',
-  description: 'برنامه روزانه و شخصی‌سازی‌شده یادگیری انگلیسی برای فارسی‌زبان‌ها.',
+  title: 'Learnest V2 | English opens a brighter you',
+  description: 'یادگیری انگلیسی با موقعیت‌های واقعی، تمرین شخصی‌سازی‌شده و همراهی هوشمند برای فارسی‌زبان‌ها.',
   generator: 'v0.app',
   icons: {
     icon: [
